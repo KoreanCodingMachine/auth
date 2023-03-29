@@ -1,6 +1,16 @@
-import {Button, Checkbox, Col, Form, Input, Row, Space} from 'antd';
+import {Button, Col, Form, Input, Row, Space } from 'antd';
 import axios from 'axios'
 import {useNavigate} from "react-router-dom";
+import styled from 'styled-components'
+
+
+const Wrapper = styled.div`
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+`
+
 
 const SignUp = () => {
 
@@ -43,8 +53,8 @@ const SignUp = () => {
 
 
     return (
-        <div className="space-align-container">
-            <div className="space-align-block">
+        <Wrapper>
+            <div>
                 <Space align='center' >
         <Row>
             <Col span={24}>
@@ -126,7 +136,7 @@ const SignUp = () => {
         </Row>
                 </Space>
             </div>
-        </div>
+        </Wrapper>
     );
 }
 export default SignUp;

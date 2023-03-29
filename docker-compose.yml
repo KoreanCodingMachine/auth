@@ -1,17 +1,16 @@
-version: "3.7"
+version: '3.7'
 
 services:
-  sample:
-    container_name: react-dockerize
+  movie_app:
+    container_name: movie_app
     build:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ".:/app"
-      - "/app/node_modules"
+      - '.:/app'
+      - '/app/node_modules'
     ports:
-      - "4444:3000"
+      - '3001:3000'
     environment:
       - NODE_ENV=development
-    stdin_open: true
-    tty: true
+      - CHOKIDAR_USEPOLLING=true

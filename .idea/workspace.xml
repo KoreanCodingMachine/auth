@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="427a14a9-a771-4491-a05f-8be57d082b84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Profile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SignUp.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cookie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/김주형/Desktop/movieapp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/김주형/Desktop/ecommerce_nest&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -66,7 +66,14 @@
       <workItem from="1679894046740" duration="338000" />
       <workItem from="1679894720947" duration="57000" />
       <workItem from="1679895491420" duration="8070000" />
-      <workItem from="1679903758974" duration="3972000" />
+      <workItem from="1679903758974" duration="5458000" />
+      <workItem from="1680006406992" duration="2926000" />
+      <workItem from="1680010280793" duration="3850000" />
+      <workItem from="1680015121477" duration="1165000" />
+      <workItem from="1680048251333" duration="2464000" />
+      <workItem from="1680054793048" duration="4000" />
+      <workItem from="1680055132237" duration="1133000" />
+      <workItem from="1680059677704" duration="3029000" />
     </task>
     <servers />
   </component>
