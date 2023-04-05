@@ -29,13 +29,14 @@ const Login = () => {
             }
             const {data , status} = await axios.post('http://localhost:8080/auth/login', userInput)
 
-
+            console.log(data)
+            console.log(data.token)
             if (status === 200) {
-                // await localStorage.setItem('token', data.data.accessTokenCookie)
-                setCookie('token',data.data.accessTokenCookie,{
-                    path:'/',
-                    sameSite:'strict',
-                })
+                await localStorage.setItem('token', data.token)
+                // setCookie('token',data.data.token,{
+                //     path:'/',
+                //     sameSite:'strict',
+                // })
                 navigate('/profile')
 
             }
@@ -48,6 +49,18 @@ const Login = () => {
     const onFinishFailed = (errorInfo) => {
         console.log('Failed:', errorInfo);
     };
+
+    const goSignup = () => {
+        navigate('/signup')
+    }
+
+    const goFindPassword = () => {
+        navigate('/find/password')
+    }
+
+    const goChangePassword = () => {
+        navigate('/change/password')
+    }
 
     return (
         <Wrapper>
@@ -103,7 +116,19 @@ const Login = () => {
                         }}
                     >
                         <Button type="primary" htmlType="submit">
-                            Submit
+                            로그인
+                        </Button>
+                        <hr/>
+                        <Button type="primary" htmlType="submit" onClick={goSignup}>
+                            회원가입
+                        </Button>
+                        <hr/>
+                        <Button type="primary" htmlType="submit" onClick={goFindPassword}>
+                            비밀번호 찾기
+                        </Button>
+                        <hr/>
+                        <Button type="primary" htmlType="submit" onClick={goChangePassword}>
+                            비밀번호 변경하기
                         </Button>
                     </Form.Item>
                 </Form>

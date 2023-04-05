@@ -5,16 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="427a14a9-a771-4491-a05f-8be57d082b84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Cookie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ChangePassword.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ConfirmEmail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/FindPassword.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac/function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac/http,https" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac/operator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +78,19 @@
       <workItem from="1680048251333" duration="2464000" />
       <workItem from="1680054793048" duration="4000" />
       <workItem from="1680055132237" duration="1133000" />
-      <workItem from="1680059677704" duration="3029000" />
+      <workItem from="1680059677704" duration="3122000" />
+      <workItem from="1680088687240" duration="646000" />
+      <workItem from="1680167950907" duration="594000" />
+      <workItem from="1680224605244" duration="9437000" />
+      <workItem from="1680240983042" duration="4959000" />
+      <workItem from="1680246234628" duration="698000" />
+      <workItem from="1680434859476" duration="995000" />
+      <workItem from="1680492091232" duration="1090000" />
+      <workItem from="1680494844398" duration="1052000" />
+      <workItem from="1680513598453" duration="4425000" />
+      <workItem from="1680601259770" duration="1984000" />
+      <workItem from="1680613434210" duration="12396000" />
+      <workItem from="1680676204020" duration="3648000" />
     </task>
     <servers />
   </component>

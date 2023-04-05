@@ -31,7 +31,7 @@ const SignUp = () => {
             const {data , status} = await axios.post('http://localhost:8080/auth/signup', userInput)
 
             if (status === 201) {
-                navigate('/login')
+                alert('이메일 확인해 주세요')
             }
             console.log(data)
         } catch (err) {
@@ -39,18 +39,14 @@ const SignUp = () => {
         }
 
         console.log(values)
-        // try {
-        //     await axios.post(values)
-        //
-        // } catch (err) {
-        //     console.log(err.message)
-        // }
     };
     const onFinishFailed = (errorInfo) => {
         console.log('Failed:', errorInfo);
     };
 
-
+    const goLogin = () => {
+        navigate('/')
+    }
 
     return (
         <Wrapper>
@@ -130,6 +126,10 @@ const SignUp = () => {
 
             <Button type="primary" htmlType="submit">
                 Submit
+            </Button>
+            <hr/>
+            <Button type="primary" htmlType="submit" onClick={goLogin}>
+                로그인
             </Button>
         </Form>
             </Col>

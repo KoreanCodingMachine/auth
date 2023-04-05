@@ -29,19 +29,25 @@ const Profile = () => {
        }
     }
 
+    // 비밀번호 변경
+    const onChangePassword = () => {
+
+    }
+
     const getProfileInfo = async () => {
         try {
-            // const token = localStorage.getItem('token')
-            const token = getCookie('token')
+            const token = localStorage.getItem('token')
+            // const token = getCookie('token')
             const config = {
                 headers: {
                     authorization: 'bearer ' + token
                 }
             }
             const {data, status} = await axios.get('http://localhost:8080/auth', config)
+            console.log(data)
             if (status === 200) {
-                setName(data.data.username)
-                setEmail(data.data.email)
+                setName(data.username)
+                setEmail(data.email)
             }
         } catch (err) {
             console.log(err.message)
@@ -69,6 +75,7 @@ const Profile = () => {
                 {name}
             </h1>
             <button onClick={onLogOut}>로그아웃</button>
+            <button onClick={onLogOut}>비밀번호 변경</button>
         </div>
         </Wrapper>
     );

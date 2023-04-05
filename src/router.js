@@ -2,17 +2,12 @@ import {
     createBrowserRouter,
 } from "react-router-dom";
 
-import Login from "./pages/Login";
-import SignUp from "./pages/SignUp";
-import Profile from "./pages/Profile";
+import {SignUp, Login, Profile, ConfirmEmail, FindPassword, ChangePassword} from './pages'
+
 
 export const router = createBrowserRouter([
     {
         path: "/",
-        element: <Login />,
-    },
-    {
-        path: "/login",
         element: <Login />,
     },
     {
@@ -22,5 +17,19 @@ export const router = createBrowserRouter([
     {
         path: "/profile",
         element: <Profile />,
+    },
+    {
+        path: "/email/confirm",
+        element: <ConfirmEmail />,
+    },
+
+    {
+        path: "/find/password",
+        element: <FindPassword />,
+    },
+
+    {
+        path: "/change/password",
+        element: <ChangePassword />,
     },
 ]);
