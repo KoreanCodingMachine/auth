@@ -1,5 +1,44 @@
 import React, {useState} from 'react';
 import axios from "axios";
+import MainHeader from "../components/MainHeader";
+import img from "../img/이메일인증.png";
+import styled from "styled-components";
+import {Button, Input, Image} from "antd";
+
+
+
+const Wrapper = styled.div`
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+   p {
+     margin-top: 30px;
+     color: #76adff;
+     font-size: 14px;
+     font-weight: bold;
+   }
+
+  .input-box {
+    min-width: 440px;
+    width: 440px;
+    min-height: 60px;
+    background: #f5f5f5;
+    display: block;
+    margin: 0 auto;
+  }
+`
+
+const STButton = styled(Button)`
+  display: block;
+  margin: 0 auto;
+  min-width: 240px;
+  height: 56px;
+  background: #76adff;
+  color:white;
+`
 
 const FindPassword = () => {
 
@@ -8,7 +47,7 @@ const FindPassword = () => {
         setMail(e.target.value)
     }
 
-    const onClick = async () => {
+    const onEmailConfirm = async () => {
         try {
             const {data,status} = await axios.post('http://localhost:8080/user/find/password',{
                    email:mail
@@ -26,12 +65,19 @@ const FindPassword = () => {
     }
 
     return (
-        <div>
-            <h1>비밀번호 찾기</h1>
-                <h1>가입한 이메일 주소를 입력해 주세요</h1>
-                <input onChange={onChange}/>
-                <button onClick={onClick}>submit</button>
-        </div>
+        <>
+            <MainHeader/>
+            <Wrapper>
+                <div>
+                    <Image src={img} width={500}/>
+                    <Input className='input-box' placeholder='가입해주신 이메일을 입력하세요' onChange={onChange}/>
+                    <p>
+                        가입하신 이메일을 입력하신 후 이메일을 확인해 보세요!
+                    </p>
+                    <STButton onClick={onEmailConfirm}>이메일 전송</STButton>
+                </div>
+            </Wrapper>
+        </>
     );
 };
 

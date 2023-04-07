@@ -2,7 +2,8 @@ import {
     createBrowserRouter,
 } from "react-router-dom";
 
-import {SignUp, Login, Profile, ConfirmEmail, FindPassword, ChangePassword} from './pages'
+import {SignUp, Login, Profile, ConfirmEmail, FindPassword, ChangePassword ,ConfirmPassword, ChangePasswordAfterLogin} from './pages'
+
 
 
 export const router = createBrowserRouter([
@@ -22,14 +23,20 @@ export const router = createBrowserRouter([
         path: "/email/confirm",
         element: <ConfirmEmail />,
     },
-
+    {
+        path: "/password/confirm",
+        element: <ConfirmPassword />,
+    },
     {
         path: "/find/password",
         element: <FindPassword />,
     },
-
     {
         path: "/change/password",
         element: <ChangePassword />,
+    },
+    {
+        path: "/change/password/after",
+        element: <ChangePasswordAfterLogin />,
     },
 ]);

@@ -5,20 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="427a14a9-a771-4491-a05f-8be57d082b84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/ChangePassword.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ConfirmEmail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/FindPassword.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac/function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac/http,https" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac/operator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainHeader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Loginlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Signuplogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/이메일인증.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ChangePasswordAfterLogin.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ConfirmPassword.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac/promise.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ChangePassword.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ChangePassword.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ConfirmEmail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ConfirmEmail.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/FindPassword.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FindPassword.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -59,6 +62,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\김주형\Desktop\auth\src\img" />
+      <recent name="C:\Users\김주형\Desktop\auth\src\pages" />
+      <recent name="C:\Users\김주형\Desktop\auth\public" />
+      <recent name="C:\Users\김주형\Desktop\auth\src\assets" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -90,7 +101,11 @@
       <workItem from="1680513598453" duration="4425000" />
       <workItem from="1680601259770" duration="1984000" />
       <workItem from="1680613434210" duration="12396000" />
-      <workItem from="1680676204020" duration="3648000" />
+      <workItem from="1680676204020" duration="3714000" />
+      <workItem from="1680774199827" duration="3461000" />
+      <workItem from="1680794023465" duration="11446000" />
+      <workItem from="1680806172012" duration="3683000" />
+      <workItem from="1680833914737" duration="7577000" />
     </task>
     <servers />
   </component>

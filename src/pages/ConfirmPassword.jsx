@@ -30,7 +30,7 @@ const STButton = styled(Button)`
   color:white;
 `
 
-const ConfirmEmail = () => {
+const ConfirmPassword = () => {
 
     const location = useLocation()
     const token = location.search.slice(7)
@@ -40,32 +40,31 @@ const ConfirmEmail = () => {
     const confirmEmail = async () => {
         try {
 
-           const {data} = await axios.post('http://localhost:8080/auth/confirm', { token })
+            const {data} = await axios.post('http://localhost:8080/auth/confirm', { token })
 
-           if(data.statusCode === 200) {
-               alert('메일 인증 됬다')
-               navigate('/')
-           }
+            if(data.statusCode === 200) {
+                alert('비밀번호 인증 완료')
+                navigate('/')
+            }
         } catch (err) {
             console.log(err.message)
         }
     }
 
     return (
-      <>
-          <MainHeader/>
-          <Wrapper>
-              <div>
-                  <img src={img} width={500}/>
-                  <STButton onClick={confirmEmail}>인증 완료</STButton>
-                  <p>
-                      버튼을 눌러 이메일 인증을 완료해 주세요!
-                  </p>
-
-              </div>
-          </Wrapper>
-      </>
+        <>
+            <MainHeader/>
+            <Wrapper>
+                <div>
+                    <img src={img} width={500}/>
+                    <STButton onClick={confirmEmail}>인증 완료</STButton>
+                    <p>
+                        버튼을 눌러 비밀번호 인증을 완료해 주세요!
+                    </p>
+                </div>
+            </Wrapper>
+        </>
     );
 };
 
-export default ConfirmEmail;
+export default ConfirmPassword;
